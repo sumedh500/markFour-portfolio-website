@@ -32,3 +32,6 @@ body{
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
 }
+hr{
+    margin: 2rem 0rem;
+}
