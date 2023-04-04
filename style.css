@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 
+
+:root {
+    --primary-color: #7c3aed
+}
 body{
     font-family: 'Inter', sans-serif;
 }
@@ -12,3 +16,19 @@ body{
     margin: auto;
 }
 
+.links{
+    text-decoration: none;
+    padding: 0.5 1rem;
+}
+
+.primary-links{
+    background-color:var(--primary-color);
+    color:white;
+    border-radius: 0.5rem;
+}
+
+.secondary-links{
+    color:var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
