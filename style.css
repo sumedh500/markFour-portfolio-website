@@ -7,6 +7,9 @@
 body{
     font-family: 'Inter', sans-serif;
 }
+
+/** container**/
+
 .container{
     padding-left: 1rem;
     padding-right: 1rem;
@@ -16,6 +19,7 @@ body{
     margin: auto;
 }
 
+/** links**/
 .links{
     text-decoration: none;
     padding: 0.5 1rem;
@@ -34,4 +38,14 @@ body{
 }
 hr{
     margin: 2rem 0rem;
+}
+
+/** list**/
+
+.non-bullet{
+    list-style: none;
+}
+.inline-list{
+    display: inline;
+    padding: 0 0.5;
 }
