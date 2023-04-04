@@ -49,6 +49,8 @@ hr{
     display: inline;
     padding: 0 0.5;
 }
+
+
 /** navigation **/
 .navigation{
     background-color: var(--primary-color);
@@ -68,4 +70,23 @@ hr{
 }
 .navigation .link-active{
     font-weight: bold;
+}
+
+/** header **/
+.hero{
+    padding: 2rem;
+}
+
+.hero .hero-img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading{
+    
+    padding-top: 1rem;
+    color: var(
+        --primary-color
+    );
 }
