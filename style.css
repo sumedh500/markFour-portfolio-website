@@ -48,7 +48,7 @@ hr{
 }
 .inline-list{
     display: inline;
-    padding: 0 0.5;
+    padding: 0.10;
 }
 
 
@@ -85,7 +85,7 @@ hr{
 }
 
 .hero .hero-heading{
-    
+    text-align: center;
     padding-top: 1rem;
     color: var(
         --primary-color
@@ -101,4 +101,22 @@ hr{
 
 .ow{
     background-color: var(--off-white);
+}
+
+/** footer **/
+
+footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;   
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link{
+    color: white;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
 }
