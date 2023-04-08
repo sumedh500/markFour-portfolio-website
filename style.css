@@ -2,11 +2,12 @@
 
 
 :root {
-    --primary-color: #7c3aed;
+    --primary-color: #0f172a;
     --off-white:#cbd5e1;
 }
 body{
     font-family: 'Inter', sans-serif;
+    margin: 0px;
 }
 
 /** container**/
@@ -22,8 +23,11 @@ body{
 
 /** links**/
 .links{
+    box-sizing: border-box;
     text-decoration: none;
-    padding: 0.5 1rem;
+    padding: 0.5rem 1rem;
+    /* margin-top: 1rem;
+    margin-bottom: 1rem; */
 }
 
 .primary-links{
@@ -40,6 +44,10 @@ body{
 hr{
     margin: 2rem 0rem;
 }
+/* spaces */
+.margin-md{
+    margin:2rem;
+}
 
 /** list**/
 
@@ -48,7 +56,7 @@ hr{
 }
 .inline-list{
     display: inline;
-    padding: 0.10;
+    padding:0rem 0.5rem;
 }
 
 
@@ -58,6 +66,7 @@ hr{
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
+    
 }
  .navigation .nav-brand{
     font-weight: bold;
@@ -76,6 +85,11 @@ hr{
 /** header **/
 .hero{
     padding: 2rem;
+    padding-top: 5rem;
+}
+
+.header-name-color{
+    color: gray;
 }
 
 .hero .hero-img{
@@ -117,6 +131,10 @@ footer{
     color: white;
 }
 
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+}
 .footer ul{
     padding-inline-start: 0px;
 }
